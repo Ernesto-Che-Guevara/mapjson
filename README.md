@@ -7,6 +7,10 @@ you can parse any json to map
 ``` go get https://github.com/Ernesto-Che-Guevara/mapJSON/```
 
 
+
+# License
+
+MIT
 Лицензия
-ПОЛНОСТЬ ФРИ
+ПОЛНОСТЬ ФРИ МОЖНО СКАЗАТЬ, ИСПОЛЬЗУЙТЕ КОД, ИЗМЕНЯЙТЕ КОД, Я ОТВЕТСТВЕННОСТИ НЕ НЕСУ
 
