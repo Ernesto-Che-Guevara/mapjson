@@ -22,5 +22,5 @@ func ParseJsonFile(path string) map[string]interface{} {
 		log.Print(err)
 	}
 
-	return parseJsonString(string(fileData))
+	return ParseJsonString(string(fileData))
 }
