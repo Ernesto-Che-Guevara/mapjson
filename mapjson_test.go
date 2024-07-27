@@ -21,7 +21,7 @@ func TestParseJsonString(t *testing.T) {
 	correctAns["smth3"] = "string7"
 	correctAns["smth4"] = true
 
-	if fmt.Sprint(parseJsonString(inpS)) != fmt.Sprint(correctAns) {
+	if fmt.Sprint(ParseJsonString(inpS)) != fmt.Sprint(correctAns) {
 		t.Fatalf("plan %s \n \t    but fact %s", fmt.Sprint(correctAns), fmt.Sprint(parseJsonString(inpS)))
 	}
 }
@@ -36,7 +36,7 @@ func TestParseJsonFile(t *testing.T) {
 	correctAns["smth3"] = "string7"
 	correctAns["smth4"] = true
 
-	if fmt.Sprint(parseJsonFile(path)) != fmt.Sprint(correctAns) {
+	if fmt.Sprint(ParseJsonFile(path)) != fmt.Sprint(correctAns) {
 		t.Fatalf("plan %s \n \t    but fact %s", fmt.Sprint(correctAns), fmt.Sprint(parseJsonString(path)))
 	}
 }
